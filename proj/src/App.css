@@ -1,0 +1,31 @@
+/* Remove the boilerplat app css (for the spinning react logo */
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tweet{
+  border: 5px solid #663399;
+  /* background-color: #663399; */
+  border-radius: 5px;
+  min-height: 20vh;
+  width: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* align-items: center; */
+  text-align: left;
+
+}
+
+.fancy_class{
+  border-radius: 5px;
+  color:blueviolet;
+}
+
+.big_numbers{
+  font-size: 1.2rem;
+  color:crimson;
+}
